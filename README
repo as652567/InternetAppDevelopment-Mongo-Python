@@ -1,2 +1,21 @@
+Internet Application Development: Final Project
 Created a web application using Python, HTML, and CSS for a NoSQL database (in Mongo) that satisfied 
 the requirements of a pharmaceutical company performing clinical trials on new drugs.
+
+That’s a total of 7 different web pages:
+1.studyA.py
+2.addB.py
+3.subjectC.py
+4.commentD.py
+5.visitE.py
+6.deleteF.py
+7.insertG.py
+
+Using python and mongo, create a web interface that provides:
+1. A study page (studyA.py) that lists all of the subjects (one per line) in the database.
+2. A page (addB.py) that allows the user to add a new subject.
+3. A subject page (subjectC.py) that lists all of the subject information from DM (demographics) for one subject.
+4. A comment page (commentD.py) that lists all of the CO information for a particular subject.
+5. A subject visit page (visitE.py) that lists all of the SV information for a particular subject.
+6. Provide a delete page (deleteF.py) that deletes all documents in all collections.
+7. Provide an insert page (insertG.py) that populates all of the collections with documents; It should insert at least 12 subject, 18 comments, and 20 visits.
